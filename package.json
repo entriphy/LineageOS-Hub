@@ -4,7 +4,11 @@
   "description": "Electron-based app to view and manage your LineageOS device",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start:dev\"",
+    "hot-server": "webpack-dev-server --config webpack.config.js",
+    "start": "npm run build && cross-env NODE_ENV=production electron .",
+    "start:dev": "cross-env NODE_ENV=development electron ."
   },
   "repository": {
     "type": "git",
