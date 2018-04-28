@@ -1,0 +1,23 @@
+{
+  "name": "lineageos-hub",
+  "version": "0.0.1",
+  "description": "Electron-based app to view and manage your LineageOS device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilarceus/LineageOS-Hub.git"
+  },
+  "keywords": [
+    "electron",
+    "react"
+  ],
+  "author": "evilarceus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evilarceus/LineageOS-Hub/issues"
+  },
+  "homepage": "https://github.com/evilarceus/LineageOS-Hub#readme"
+}
