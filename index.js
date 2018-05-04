@@ -4,7 +4,7 @@ const path = require("path");
 const url = require("url");
 
 function createWindow() {
-    win = new BrowserWindow({width: 1280, height: 720});
+    win = new BrowserWindow({width: 1280, height: 720, resizable: false, maximizable: false});
     win.loadURL("file:///" + __dirname + "/app/index.html")
 }
 
