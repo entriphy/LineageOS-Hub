@@ -13,3 +13,6 @@ Electron-based app to view and manage your LineageOS device
 * Navigate to the directory where the source code is located in the Console/Terminal.
 * Install all the dependencies specified by entering ``npm install`` into the Console.
 * Once all the dependencies have been installed, you can start the app by entering ``npm start`` into the Console.
+* Make any changes you want to
+* Test the app to ensure that it works.
+* Submit a pull request and wait for it to be approved :)
